@@ -14,7 +14,7 @@ int main() {
     for(int i=90;i<n;i++){
         while(i!=10){
             if(i==90 && i!=90){
-                i++
+                
             }
         }
     }
