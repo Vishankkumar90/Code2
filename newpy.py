@@ -1,8 +1,9 @@
 def b (a,b):
-   return a*b
+    return (a*b/2)-4
 
 c=int(input())
 d=int(input())
 
-b=b(c,d)
-print(b)
+
+
+print()
