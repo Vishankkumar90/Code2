@@ -12,11 +12,11 @@ void linkedListTraversal(struct Node *ptr)
     {
         printf("Element: %d\n", ptr->data);
         ptr = ptr->next;
-        
+        ptr
     }
 }
 
-// Case 1 inserting in the begining of LL
+// Case 1 inserting in the buegining of LL
 struct Node * insertAtFirst(struct Node *head, int data){
     struct Node * ptr = (struct Node *) malloc(sizeof(struct Node));
     ptr->data = data;
