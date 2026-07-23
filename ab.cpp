@@ -13,6 +13,6 @@ int fact(int n){
 
 int main() {
     int n=10;
-    cout<<fact(3);
+    cout<<fact(2);
     return 0;
 }
