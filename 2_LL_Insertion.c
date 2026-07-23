@@ -12,7 +12,7 @@ void linkedListTraversal(struct Node *ptr)
     {
         printf("Element: %d\n", ptr->data);
         ptr = ptr->next;
-        ptr
+        ptr = ptr->next;
     }
 }
 
