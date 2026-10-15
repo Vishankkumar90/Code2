@@ -1,18 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int fact(int n){
-    if(n==0){
-        return 0;
+int main() {
+    int a;
+    cin>>a;
+
+    if(a%2==0){
+        cout<<"even"<<endl;
+    }
+    else{
+        cout<<"odd"<<endl;
     }
 
-     return n+fact(n-1);
-    
 
-}
 
-int main() {
-    int n=10;
-    cout<<fact(2);
     return 0;
 }
